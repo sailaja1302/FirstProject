@@ -6,6 +6,11 @@ public class HelloWorld{
 		int b;
 		int sum = a+b;
 		System.out.println(sum);
-		System.out.println("Sum :"+sum);
+		System.out.println("Sum :"+sum);\
+		display();
+	}
+
+	public void display(){
+		System.out.println(a +" "+ b);
 	}
 }
