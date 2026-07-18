@@ -1,5 +1,10 @@
 public class HelloWorld{
 	public statis void main(String [] args){
 		System.out.println("Hello World");
+
+		int a ;
+		int b;
+		int sum = a+b;
+		System.out.println(sum);
 	}
 }
