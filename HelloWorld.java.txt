@@ -2,15 +2,25 @@ public class HelloWorld{
 	public statis void main(String [] args){
 		System.out.println("Hello World");
 
-		int a ;
-		int b;
+		int a = 30;
+		int b = 40;
 		int sum = a+b;
 		System.out.println(sum);
-		System.out.println("Sum :"+sum);\
+		System.out.println("Sum :"+sum);
 		display();
+
+		
+		int product = prod(a,b)
+		System.out.println(product);
 	}
 
 	public void display(){
 		System.out.println(a +" "+ b);
+	}
+
+	public int prod(int a, int b){
+		int prod = a * b;
+		return prod;
+
 	}
 }
