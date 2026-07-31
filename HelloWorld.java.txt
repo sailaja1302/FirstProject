@@ -8,6 +8,8 @@ public class HelloWorld{
 		System.out.println(sum);
 		System.out.println("Sum :"+sum);\
 		display();
+
+		System.out.println("Hii");
 	}
 
 	public void display(){
